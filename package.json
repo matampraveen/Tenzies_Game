@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+      "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "homepage": "https://matampraveen.github.io/Tenzies_Game"
   },
   "dependencies": {
     "nanoid": "^5.1.6",
@@ -28,3 +31,4 @@
     "vite": "^7.1.7"
   }
 }
+

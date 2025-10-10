@@ -63,8 +63,8 @@ export default function App() {
       </div>
       <h1 className="title">Tenzies</h1>
       <p className="instructions">
-        Roll until all dices are the same. Click each dice to freeze it as its
-        current vakue between rolls.
+        Roll until all dice are same. <br></br>Click each dice to freeze it as
+        its current value between rolls.
       </p>
       <div className="dice-container">{diceElements}</div>
       <button ref={buttonRef} className="roll-dice" onClick={rollDice}>
